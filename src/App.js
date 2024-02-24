@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/" element={<PlanetList />} />
+        <Route exact path="planetsdirectory/" element={<PlanetList />} />
         <Route path="/residents/:residentId" element={<PlanetCard />} />
       </Routes>
     </div>
